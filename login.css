@@ -1,7 +1,9 @@
 body
 {
+    /* background-color: #FEEAE6; */
     background-color: #E0F2F1;
-    color: #4DB6AC;
+    color: #009688;
+    /* color: #442c2e; */
 }
 
 .title
@@ -17,17 +19,20 @@ body
 {
     position: absolute;
     transform: translate(calc(50vw - 50%), -55%);
-    color: #4DB6AC;
+    color: #009688;
+    /* color: #442c2e; */
 }
 
 .title h1:nth-child(1)
 {
     color: transparent;
     -webkit-text-stroke: 1px #26A69A;
+    /* -webkit-text-stroke: 1px #442c2e; */
 }
 .title h1:nth-child(2)
 {
-    color: #4DB6AC;
+    /* color: #442c2e; */
+    color: #009688;
     animation: animate 3s ease-in-out infinite;
 }
 
@@ -57,9 +62,12 @@ body
 
 .auth
 {
-    color: #4DB6AC;
-    background-color: #4DB6AC;
-    border: 2px solid #4DB6AC;
+    color: #442c2e;
+    background-color: #442c2e;
+    border: 2px solid #442c2e;
+    /* color: #009688;
+    background-color: #009688;
+    border: 2px solid #009688; */
     border-radius: 20px;
 }
 
@@ -75,14 +83,20 @@ body
     /* margin-top: 20px; */
     font-family: 'Times New Roman', Times, serif;
     margin: 30px;
-    color: #4DB6AC;
+    color: #009688;
+    /* color : #442c2e; */
     font-size: 1.2rem;
     padding: 20px;
-    border: 2px solid #E0F2F1;
-    border-radius: 50px;
-    background: #E0F2F1;
-    box-shadow:  5px 5px 8px #d3e3e3,
-             -5px -5px 8px #edffff;
+    /* border: 2px solid #009688; */
+
+    border-radius: 40px;
+background: #E0F2F1;
+box-shadow: inset 5px 5px 10px #cadad9,
+            inset -5px -5px 10px #f6ffff;
+    /* border-radius: 40px;
+background: #FEEAE6;
+box-shadow:  5px 5px 10px #e5d3cf,
+             -5px -5px 10px #fffffd; */
 }
 
 .reg_con
@@ -91,19 +105,40 @@ body
     margin: 50px;
     padding: 40px;
     text-align: center;
-    border-radius: 50px;
-    background: #E0F2F1;
-    box-shadow: inset 5px 5px 8px #d3e3e3,
-            inset -5px -5px 8px #edffff;
+    border-radius: 40px;
+background: #E0F2F1;
+box-shadow:  5px 5px 10px #cadad9,
+             -5px -5px 10px #f6ffff;
 }
 
 .reg_con a{
     text-decoration: none;
 }
 
+@media only screen and (max-width:649px) {
+    
+    .title
+    {
+        font-size: 3.5rem;
+    }
+    .register-box
+    {
+        margin-top: 18%;
+    }
+    .about
+    {
+        line-height: 1.1rem;
+        text-align: center;
+        align-items: center;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+}
+
 .about
 {
+    line-height: 2rem;
     text-align: center;
     align-items: center;
-
 }
