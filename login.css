@@ -1,11 +1,11 @@
 body
 {
     background-color: #E0F2F1;
+    color: #4DB6AC;
 }
 
 .title
 {
-    /* border: 2px solid black; */
     padding-bottom: 5%;
     font-size: 3em;
     text-align: center;
@@ -40,7 +40,6 @@ body
     50%
     {
         clip-path: polygon(0 60%, 16% 66%, 29% 62%, 40% 54%, 50% 40%, 60% 32%, 73% 31%, 84% 40%, 100% 53%, 100% 100%, 0 100%);
-
     }
 }
 
@@ -48,4 +47,63 @@ body
 {
     margin-top: 10%;
 }
+.login
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
+.auth
+{
+    color: #4DB6AC;
+    background-color: #4DB6AC;
+    border: 2px solid #4DB6AC;
+    border-radius: 20px;
+}
+
+.register
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Register_button
+{
+    /* margin-top: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    color: #4DB6AC;
+    font-size: 1.2rem;
+    padding: 20px;
+    border: 2px solid #E0F2F1;
+    border-radius: 50px;
+    background: #E0F2F1;
+    box-shadow:  5px 5px 8px #d3e3e3,
+             -5px -5px 8px #edffff;
+}
+
+.reg_con
+{
+    min-width: 270px;
+    margin: 50px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px;
+    background: #E0F2F1;
+    box-shadow: inset 5px 5px 8px #d3e3e3,
+            inset -5px -5px 8px #edffff;
+}
+
+.reg_con a{
+    text-decoration: none;
+}
+
+.about
+{
+    text-align: center;
+    align-items: center;
+
+}
